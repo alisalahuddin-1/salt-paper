@@ -1,0 +1,148 @@
+body{
+    margin: 0%;
+    padding: 0px;
+}
+.navbar{
+    height: 92px;
+    width: 100%;
+    background-color: black;
+
+    
+
+}
+img{
+    height: 70px;
+    margin-left: 15%;
+    margin-top: 10px;
+cursor: pointer;
+}
+.Materials {
+    display: inline;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: -5%;
+    margin-left: 40%;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+
+}
+
+    
+
+
+li{
+    margin-left: 40px;
+    margin-top: -2px;
+
+}
+li:hover{
+    color: red;
+}
+
+.bt1{
+    height: 40px;
+    width: 120px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 20px;
+    margin-top: 1px;
+  cursor: pointer;
+    }
+    .bt1:hover{
+        background-color: transparent; 
+        transform: scale(1.05);    
+    border: 1px solid  white;
+    }
+
+    .bt2{
+        height: 40px;
+        width: 120px;
+        border: 1px solid red;
+        background-color: red;
+        color: white;
+        border-radius: 20px;
+        margin-top: 1px;
+    margin-left: -25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+
+}
+.bt2:hover{
+    background-color: red; 
+    transform: scale(1.05);    
+border: 1px solid red;
+}
+    i{
+        background-color: transparent;
+        color: white;
+    }
+    .layout{
+        height: 800px;
+        width: 100%;
+    }
+    .preface{
+        height: 800px;
+        width: 100%;
+        background-color: black;
+        color: white;
+    }
+    h1{
+        margin-top:25px ;
+text-align: center;
+font-weight: 100px;
+font-size: 60px;
+font-family: sans-serif;
+color:whitesmoke ;
+    }
+    h3{
+        margin-left: 25%;
+    }
+    h2{
+        text-align: center;
+       font-size: 40px;
+    }
+    .cards{
+        height: 150px;
+        width: 250px;
+        margin-left: 130px;
+          border-radius: 10px;  
+          background-color:  grey;
+    }
+    .bt3{
+        height: 40px;
+        width: 250px;
+        border: 1px solid white;
+        background-color: transparent;
+        color: white;
+        border-radius: 20px;
+        margin-left: 130px;
+        margin-top: 25px;
+      cursor: pointer;
+      
+
+    }
+        .bt3:hover{
+            background-color: transparent; 
+            transform: scale(1.05);    
+        border: 1px solid  white;
+        }
+       
+b{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: 100px;
+font-size: 80px;
+}
+.foter{
+ height: 600px;
+ width: 100%;
+    background-image: url(./ss.png);
+}
+.layout1 {
+    height: 900px;
+    width: 100%;
+    margin: 0px;
+}
